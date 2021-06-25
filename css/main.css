@@ -4,7 +4,7 @@ body {
     font-family: sans-serif; 
 }
 
-.loginbox {
+.loginbox, .forgotPassword {
     width: 320px;
     height: 420px;
     background-color: #000;
@@ -34,17 +34,17 @@ h1 {
 
 }
 
-.loginbox p{
+.loginbox p, .forgotPassword p{
     margin: 0;
     padding: 0;
     font-weight: bold;
 }
-.loginbox input{
+.loginbox input, .forgotPassword input{
     width: 100%;
     margin-bottom:20px ;
 }
 
-.loginbox input[type="text"], input[type="password"]{
+.loginbox input[type="text"], .forgotPassword input[type="text"], input[type="password"]{
     border: none;
     border-bottom: 1px solid #fff;
     background: transparent;
@@ -54,7 +54,7 @@ h1 {
     font-size: 16px;
 }
 
-.loginbox input[type="submit"] {
+.loginbox  input[type="submit"] , .forgotPassword input[type="submit"] {
     border: none;
     outline: none;
     height: 40px;
@@ -63,20 +63,20 @@ h1 {
     border-radius: 20px;
 }
 
-.loginbox input[type="submit"]:hover {
+.loginbox input[type="submit"]:hover, .forgotPassword input[type="submit"]:hover {
     cursor: pointer;
     background: #0432FD;
     color: #000;
 }
 
-.loginbox a {
+.loginbox a, .forgotPassword a {
     text-decoration: none;
     font-size: 12px;
     line-height: 20px;
     color: darkgray;
 }
 
-.loginbox a:hover {
+.loginbox a:hover, .forgotPassword a:hover {
     color: #0432FD;
     cursor: pointer;
 }
